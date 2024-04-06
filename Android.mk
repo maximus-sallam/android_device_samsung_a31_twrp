@@ -1,8 +1,3 @@
-#
-# Copyright (C) 2022 TeamWin Recovery Project
-# Copyright (C) 2022 Velosh/Hakalle
-# Copyright (C) 2022 DevZillion
-#
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
@@ -26,5 +21,7 @@
 # components.
 
 ifeq ($(TARGET_DEVICE), a31)
+
 include $(call all-subdir-makefiles,$(call my-dir))
+
 endif
